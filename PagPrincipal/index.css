@@ -1,0 +1,83 @@
+body{
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #023A67;
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.localidade{
+    max-width: 250px;
+}
+
+.localidade h4{
+    align-items: center;
+}
+
+.divisorLocalidade{
+    display: flex;
+    justify-content: left;
+    width: 80px;
+    height: 4px;
+    background-color: #2777B7;
+}
+
+.localidade p{
+    display: flex;
+    margin: 4 auto;
+}
+
+.contatos a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin: 6px auto;
+}
+
+.divisorContato{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 4px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #2777B7;
+}
+
+.contatos h4{
+    text-align: center;
+    align-items: center;
+}
+
+.social a {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: white;
+}
+
+.divisorSocial{
+    display: flex;
+    width: 80px;
+    height: 4px;
+    margin: 0 auto;
+    margin-right: 3%;
+    background-color: #2777B7;
+}
+
+footer .imagem{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
